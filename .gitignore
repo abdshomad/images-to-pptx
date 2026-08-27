@@ -1,0 +1,36 @@
+# Generated presentations
+*.pptx
+*.ppt
+~$*.pptx
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Image source folders & raw images
+CUAN-AKUNTING/
+LAPAK-MARKETPLACE/
+POS/
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.bmp
+*.gif
+*.tiff
+
+# Python caches & build artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+uv.lock
+
+# Secrets & OS files
+.secrets*
+.env*.local
+Thumbs.db
+desktop.ini
+.DS_Store
